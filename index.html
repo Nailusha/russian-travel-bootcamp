@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="./pages/index.css">
         <title>Путешествие по России.</title>
     </head>
-    <body>
+    <body class="body">
         <div class="page">
             <header class="header">
                 <img class="header__logo" src="../russian-travel-bootcamp-1/images/__logo.png" alt="Карта России">
@@ -18,9 +18,11 @@
             <section class="lead">
                 <h2 class="lead__title">Путешествие по России</h2>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img src="../russian-travel-bootcamp-1/images/kalegin-michail-179870-unsplash.png" alt="Заставка">
-                <img class="group_4" src="../russian-travel-bootcamp-1/images/Group 4.png" alt="Путь">
-                <p class="lead__caption">Ваша полка - верхняя.</p>
+                    <figure>
+                        <img src="../russian-travel-bootcamp-1/images/kalegin-michail-179870-unsplash.png" alt="Заставка">
+                        <img class="group_4" src="../russian-travel-bootcamp-1/images/Group 4.png" alt="Путь">
+                        <figcaption class="lead__caption">Ваша полка - верхняя.</figcaption>
+                    </figure>
             </section>
             <section class="intro">
                 <h3 class="intro__title">Чего мы там не видели?</h3>
@@ -31,6 +33,7 @@
                     Природных заповедников 105
                     Аэропортов 241</p>
             </section>
+
             <section class="photo-grid">
                 <img class="photo-grid__item" src="../russian-travel-bootcamp-1/images/__item-11.png" alt="Вид из окна">
                 <img class="photo-grid__item" src="../russian-travel-bootcamp-1/images/__item-10.png" alt="Вид на горы">
@@ -47,7 +50,7 @@
             </section>
 
             <section class="places">
-              <section class="place">
+              <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. 
                     Уникальная природная зона на краю российского анклава.</p>
@@ -55,9 +58,9 @@
                     и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы 
                     и запах стального, прохладного моря.</p>
                 <img class="place__image" src="../russian-travel-bootcamp-1/images/__image.png" alt="Куршская коса">
-            </section>
+              </article>
 
-            <section>
+            <article class="place">
                 <h2 class="place__title">Кольский</h2>
                 <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, 
                     от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -65,9 +68,9 @@
                     в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. 
                     Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
                 <img class="place__image" src="../russian-travel-bootcamp-1/images/__image2.png" alt="Кольский">
-            </section>
+            </article>
 
-            <section>
+            <article class="place">
                 <h2 class="place__title">Алтай</h2>
                 <p class="place__paragraph">Алтай — одно из красивейших мест 
                     в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. 
@@ -75,24 +78,25 @@
                 <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. 
                     По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
                 <img class="place__image" src="../russian-travel-bootcamp-1/images/__image3.png" alt="Алтай">
-            </section>
+            </article>
 
-            <section>
+            <article class="place">
                 <h2 class="place__title">Зимний Байкал</h2>
                 <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. 
                     Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
                 <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, 
                     и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч</p>
                 <img class="place__image" src="../russian-travel-bootcamp-1/images/__image4.png" alt="Зимний Байкал">
-            </section>
+            </article>
                 
-            <section>
+            <article class="place">
                 <h2 class="place__title">Карелия</h2>
                 <p class="place__paragraph">Сибирь заканчивается не на Урале, 
                     а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает 
                     на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. 
                     А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин</p>
                 <img class="place__image" src="../russian-travel-bootcamp-1/images/__image5.png" alt="Карелия">
+            </article>
             </section>
             
             <section class="cover">
@@ -103,15 +107,15 @@
         </div>
         <footer class="footer">
             <nav>
-            <ul class="footer__links">
-                <li class="footer__link"><a href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-                <li class="footer__link"><a href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-                <li class="footer__link"><a href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-                <li class="footer__link"><a href="https://yandex.ru/support/calendar" target="_blank">Календарь</a></li>
-                <li class="footer__link"><a href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-            </ul>
+                <ul class="footer__links">
+                    <li class="footer__link"><a href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+                    <li class="footer__link"><a href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+                    <li class="footer__link"><a href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+                    <li class="footer__link"><a href="https://yandex.ru/support/calendar" target="_blank">Календарь</a></li>
+                    <li class="footer__link"><a href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+                </ul>
             </nav>
-        <p class="footer__copyright">&COPY; 2023. Казачук Наиля</p>
+            <p class="footer__copyright">&COPY; 2023. Казачук Наиля</p>
         </footer>
     </body>
 </html>
