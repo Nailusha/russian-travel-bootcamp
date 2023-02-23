@@ -1,2 +1,8 @@
 .places {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-areas: 
+        "title"
+        "image"
+        "paragraphes";
 }
