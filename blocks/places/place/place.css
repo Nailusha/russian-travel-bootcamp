@@ -3,9 +3,35 @@
     display: grid;
     grid-template-columns: 460px 1fr;
     grid-template-areas: 
-    "title" 
-    "url"
-    "image" 
-    "text";
+    "title url"
+    "image paragraph";
     gap: 0 40px;
 }
+
+.place:last-of-type {
+    margin: 0;
+}
+@media (max-width: 1200px) {
+    .place {
+        grid-template-columns: 440px 1fr;
+        gap: 0 32px;
+        }
+}
+@media (max-width: 994px) {
+    .place {
+        margin: 0 0 72px 0;
+        grid-template-columns: 340px 1fr;
+        gap: 0 28px;
+        }
+}
+
+@media (max-width: 700px) {
+    .place {
+        margin: 0 0 50px 0;
+        grid-template: 4fr/1fr;
+        grid-template-areas:
+        "title"
+        "website"
+        "image"
+        "paragraph";
+        }
