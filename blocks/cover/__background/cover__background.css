@@ -1,5 +1,15 @@
 .cover__background {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
     max-width: 1184px;
     max-height: 740px;
     margin: 0 48px 134px 48px;
+    
+}
+@media (max-width: 1184px) {
+    .cover__background {
+        min-height: calc(100vw * 0.625);
+        }
 }
