@@ -1,5 +1,17 @@
 .cover {
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
+    min-height: 740px;
     margin: 0 auto;
+}
+
+@media (max-width: 1184px) {
+    .cover {
+        min-height: calc(100vw * 0.625);
+    }
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        width: 100%;
+    }
 }

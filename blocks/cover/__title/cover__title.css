@@ -1,5 +1,9 @@
 .cover__title {
+    max-width: 512px;
+    max-height: 152px;
+    margin: 245px 312px 343px 312px;
     position: absolute;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
