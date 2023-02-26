@@ -21,3 +21,6 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+
+Сайт:
+https://github.com/Nailusha/russian-travel-bootcamp.git
