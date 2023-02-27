@@ -31,7 +31,8 @@
         grid-template: 4fr/1fr;
         grid-template-areas:
         "title"
-        "website"
+        "url"
         "image"
         "paragraph";
         }
+    }
