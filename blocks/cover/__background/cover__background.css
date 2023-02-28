@@ -6,6 +6,7 @@
     max-width: 1184px;
     height: 740px;
     margin: 0 48px 134px 48px;
+    z-index: 1;
 }
 
 @media (max-width: 1184px) {
