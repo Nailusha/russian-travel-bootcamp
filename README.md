@@ -23,4 +23,4 @@
 Удачи!
 
 Сайт:
-https://github.com/Nailusha/russian-travel-bootcamp.git
+https://nailusha.github.io/russian-travel-bootcamp/
