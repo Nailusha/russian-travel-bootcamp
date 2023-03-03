@@ -1,6 +1,8 @@
 .cover {
-    position: relative;
+    max-width: 1184px;
     min-height: 740px;
+    margin: 0 auto;
+    position: relative;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -11,24 +13,6 @@
     background-position: center;
     background-size: cover;
     text-decoration: none;
-}
-.cover:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #2A2C2F;
-    opacity: .3;
-    transition: opacity linear .2s;
-}
-
-@media (max-width: 1184px) {
-    .cover {
-        min-height: 740px;
-    }
 }
 
 @media (max-width: 1024px) {

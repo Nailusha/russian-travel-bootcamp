@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     margin: 0 auto 92px;
+    padding-left: 0;
+    list-style-type: none;
     width: 92.5%;
     gap: 16px;
 }
