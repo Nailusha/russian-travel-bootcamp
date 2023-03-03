@@ -26,9 +26,9 @@
 @import url(../blocks/intro/__cell/intro__cell.css);
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
-@import url(../blocks/photo/photo.css);
-@import url(../blocks/photo/photo-grid/photo-grid.css);
-@import url(../blocks/photo/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/photo-grid__list/photo-grid__list.css);
+@import url(../blocks/photo-grid/photo-grid__list/__list-item/photo-grid__list-item.css);
 
 @import url(../blocks/places/places.css);
 
