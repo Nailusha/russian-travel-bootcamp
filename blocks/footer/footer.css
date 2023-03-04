@@ -21,8 +21,7 @@
 
 @media (max-width: 320px) {
   .footer {
-    max-width: 186px;
-    margin: 0 118px 0 16px;
+    margin: 0 16px 0 16px;
     padding: 64px 0 24px;
     gap: 48px;
   }
