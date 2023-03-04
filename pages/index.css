@@ -28,7 +28,7 @@
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
-@import url(../blocks/photo-grid/__list/__list-item/photo-grid__list-item.css);
+@import url(../blocks/photo-grid/__list-item/photo-grid__list-item.css);
 
 @import url(../blocks/places/places.css);
 
@@ -53,4 +53,3 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 
-* { outline: 1px solid yellow; }
